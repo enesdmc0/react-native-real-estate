@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { View, TouchableOpacity, Image, TextInput } from "react-native";
 import { useDebouncedCallback } from "use-debounce";
 

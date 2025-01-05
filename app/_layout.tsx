@@ -1,6 +1,6 @@
+import "../global.css";
 import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
-import "../global.css";
 import { useEffect } from "react";
 import GlobalProvider from "@/lib/global-provider";
 

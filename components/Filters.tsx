@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { router, useLocalSearchParams } from "expo-router";
 import { Text, ScrollView, TouchableOpacity } from "react-native";
 
