@@ -11,7 +11,6 @@ export default function Index() {
         <Link href="/explore">explore</Link>
         <Link href="/profile">profile</Link>
         <Link href="/properties/1">properties</Link>
-
     </View>
   );
 }
