@@ -7,7 +7,7 @@ interface GlobalContextType {
   isLogged: boolean;
   user: User | null;
   loading: boolean;
-  refetch: () => void;
+  refetch: (params?: any) => void;
 }
 
 interface User {
@@ -34,13 +34,17 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
 
   const isLogged = !!user;
 
+  const handleRefetch = (params?: any) => {
+    refetch(params);
+  };
+
   return (
     <GlobalContext.Provider
       value={{
         isLogged,
         user,
         loading,
-        refetch
+        refetch: handleRefetch,
       }}
     >
       {children}
