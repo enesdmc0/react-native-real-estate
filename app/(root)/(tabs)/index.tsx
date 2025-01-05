@@ -1,14 +1,10 @@
-import { Text, View } from "react-native";
+import {  View } from "react-native";
 import {Link} from "expo-router";
 
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className="bg-red-400 border border-red-400"
     >
         <Link href="/sign-in">Sign In</Link>
         <Link href="/explore">explore</Link>
