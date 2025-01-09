@@ -14,9 +14,9 @@ import icons from "@/constants/icons";
 import images from "@/constants/images";
 import { facilities } from "@/constants/data";
 
+import Comment from "@/components/Comment";
 import { useAppwrite } from "@/lib/useAppwrite";
 import { getPropertyById } from "@/lib/appwrite";
-import Comment from "@/components/Comment";
 
 const Property = () => {
   const { id } = useLocalSearchParams<{ id?: string }>();

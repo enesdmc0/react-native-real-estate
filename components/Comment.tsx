@@ -1,6 +1,6 @@
-import { View, Text, Image } from "react-native";
 import icons from "@/constants/icons";
 import { Models } from "react-native-appwrite";
+import { View, Text, Image } from "react-native";
 
 interface Props {
   item: Models.Document;

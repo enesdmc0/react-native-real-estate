@@ -15,10 +15,11 @@ import icons from "@/constants/icons";
 import { useAppwrite } from "@/lib/useAppwrite";
 import { useGlobalContext } from "@/lib/global-provider";
 import { getLatestProperties, getProperties } from "@/lib/appwrite";
+
 import Search from "@/components/Search";
-import { Card, FeaturedCard } from "@/components/Cards";
-import NoResults from "@/components/NoResults";
 import Filters from "@/components/Filters";
+import NoResults from "@/components/NoResults";
+import { Card, FeaturedCard } from "@/components/Cards";
 
 const Home = () => {
   const { user } = useGlobalContext();
